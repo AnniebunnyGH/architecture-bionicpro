@@ -1,0 +1,227 @@
+<mxfile host="65bd71144e">
+    <diagram name="Task 1 - Security &amp; IAM C4" id="bionicpro-task1-security-c4">
+        <mxGraphModel dx="922" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="1300" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <object placeholders="1" c4Name="BionicPRO" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="boundary-bionicpro">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=10;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;connectable=0;expand=0;recursiveResize=0;pointerEvents=0;" parent="1" vertex="1">
+                        <mxGeometry x="610" y="10" width="1140" height="1140" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Контур представительства РФ (152-ФЗ)" c4Type="SystemScopeBoundary" c4Application="Regional Data Residency Boundary" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="boundary-ru">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=10;fillColor=#F8F9FA;strokeColor=#8C8496;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;spacingTop=0;spacing=10;dashPattern=6 4;connectable=0;pointerEvents=0;" parent="1" vertex="1">
+                        <mxGeometry x="1810" y="250" width="600" height="350" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Контур представительства ЕС / др. стран (GDPR)" c4Type="SystemScopeBoundary" c4Application="Regional Data Residency Boundary" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="boundary-eu">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=10;fillColor=#F8F9FA;strokeColor=#8C8496;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;spacingTop=0;spacing=10;dashPattern=6 4;connectable=0;pointerEvents=0;" parent="1" vertex="1">
+                        <mxGeometry x="1810" y="630" width="600" height="350" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Покупатель протеза" c4Type="Person" c4Description="Заказывает и оплачивает протез" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="person-buyer">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="20" y="20" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Пилот протеза" c4Type="Person" c4Description="Пользователь протеза; донастраивает протез и запрашивает отчёты" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="person-pilot">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="20" y="450" width="200" height="180" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Оператор производства" c4Type="Person" c4Description="Работает с заказами в CRM" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="person-operator">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1990" y="20" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="ML-инженер" c4Type="Person" c4Description="Обучает модели распознавания миосигналов" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="person-ml">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="2190" y="1010" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Программа в чипе протеза" c4Type="Software System" c4Description="ESP32 (C++): считывание миосигналов, распознавание движений, передача телеметрии" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="sys-chip">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="300" y="290" width="250" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Приложение для донастройки протеза" c4Type="Container" c4Technology="iOS, Android" c4Description="Управление протезом и доступ к отчётам через BFF (без хранения токенов IdP на клиенте)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-mobile">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="300" y="490" width="250" height="130" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Веб-портал (Frontend)" c4Type="Container" c4Technology="React, TypeScript" c4Description="SPA для просмотра и скачивания отчётов. Работает с BFF по HttpOnly Cookie; токены IdP не передаются в браузер" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-frontend">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="300" y="700" width="250" height="130" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Интернет-магазин" c4Type="Container" c4Technology="Битрикс24" c4Description="Каталог и оформление заказов протезов" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-shop">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="660" y="40" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="CRM" c4Type="Container" c4Technology="Битрикс24" c4Description="Учёт клиентов и производства; SSO через Keycloak" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-crm">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1060" y="40" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="CRM DB" c4Type="Container" c4Technology="PostgreSQL / Oracle" c4Description="Заказы и обезличенные ID клиентов (ссылки на региональные ПДн)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-crm-db">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#23A2D9;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1450" y="40" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="BFF / Auth Gateway" c4Type="Container" c4Technology="Node.js, TypeScript" c4Description="Confidential OAuth 2.0 Client (Code Grant + PKCE S256). Хранит access/refresh токены на сервере, выдаёт фронтенду HttpOnly Secure SameSite Cookie, обновляет токены и подставляет Bearer JWT в API" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-bff">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0B4884;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="720" y="340" width="280" height="150" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Session Store" c4Type="Container" c4Technology="Redis" c4Description="Зашифрованное серверное хранилище сессий (session_id -&gt; access_token, refresh_token, id_token)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-redis">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#1168BD;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#0B4884;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="680" y="760" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Keycloak (SSO / IdP Broker)" c4Type="Container" c4Technology="Keycloak" c4Description="Единый SSO, OAuth 2.0 + PKCE (S256), RBAC. Identity Brokering (OIDC/SAML) к внешним IdP и LDAP User Federation в странах присутствия без репликации ПДн" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-keycloak">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0B4884;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1150" y="450" width="300" height="150" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Keycloak DB" c4Type="Container" c4Technology="PostgreSQL" c4Description="Конфигурация реалмов, ролей, клиентов и федеративных ссылок (без хранения ПДн/медицинских данных)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-kc-db">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#1168BD;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#0B4884;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1180" y="670" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="API (Telemetry &amp; Reports)" c4Type="Container" c4Technology="Node.js, TypeScript" c4Description="Проверяет подпись JWT по JWKS Keycloak, роли RBAC и принадлежность данных пользователю (sub)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-api">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1060" y="960" width="260" height="130" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="База данных телеметрии" c4Type="Container" c4Technology="PostgreSQL" c4Description="Обезличенная техническая телеметрия протезов (ключ — UUID/sub)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-db">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#23A2D9;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1450" y="965" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Региональный LDAP (РФ)" c4Type="External Directory" c4Technology="OpenLDAP / AD" c4Description="Локальный каталог учётных записей и групп пользователей РФ (User Federation)" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ext-ldap-ru">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#8C8496;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#6C6477;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1840" y="280" width="250" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Локальная БД ПДн/Мед (РФ)" c4Type="External DB" c4Technology="PostgreSQL (РФ)" c4Description="Персональные и медицинские данные граждан РФ (152-ФЗ)" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ext-pii-ru">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#8C8496;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#6C6477;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="2130" y="280" width="250" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Внешний IdP РФ (Яндекс ID / ЕСИА)" c4Type="External System" c4Technology="OIDC / SAML 2.0" c4Description="Внешние удостоверяющие службы для входа пользователей из РФ" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ext-idp-ru">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6C6477;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1840" y="440" width="280" height="110" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Региональный LDAP (ЕС / др.)" c4Type="External Directory" c4Technology="OpenLDAP / AD" c4Description="Локальный каталог учётных записей пользователей страны представительства" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ext-ldap-eu">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#8C8496;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#6C6477;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1840" y="660" width="250" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Локальная БД ПДн/Мед (ЕС)" c4Type="External DB" c4Technology="PostgreSQL (ЕС)" c4Description="Персональные и медицинские данные пациентов ЕС (GDPR)" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ext-pii-eu">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#8C8496;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#6C6477;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="2130" y="660" width="250" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Внешний IdP ЕС / Global (Google / eIDAS)" c4Type="External System" c4Technology="OIDC / SAML 2.0" c4Description="Внешние удостоверяющие службы для пользователей других стран" label="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ext-idp-eu">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#6C6477;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1840" y="820" width="280" height="110" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="cli tool" c4Type="Container" c4Technology="Python / CLI" c4Description="Доступ к обезличенной телеметрии" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="cont-cli">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1860" y="1030" width="240" height="110" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="e-buyer-shop" value="Выбор протеза, заказ, оплата" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="person-buyer" target="cont-shop" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-shop-crm" value="Передача заказа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="cont-shop" target="cont-crm" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-crm-db" value="Чтение / запись" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="cont-crm" target="cont-crm-db" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-op-crm" value="Управление производством (SSO)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="person-operator" target="cont-crm" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-crm-kc" value="SSO (OIDC)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" parent="1" source="cont-crm" target="cont-keycloak" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-pilot-chip" value="Миосигналы" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="person-pilot" target="sys-chip" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-pilot-mobile" value="Донастройка" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="person-pilot" target="cont-mobile" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-pilot-web" value="Просмотр отчётов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="person-pilot" target="cont-frontend" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-mobile-chip" value="Управление протезом" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="cont-mobile" target="sys-chip" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-chip-api" value="Отправка телеметрии (mTLS / 4G)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="sys-chip" target="cont-api" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="570" y="350"/>
+                            <mxPoint x="570" y="1025"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-mobile-bff" value="HTTPS + HttpOnly Cookie&#10;(без токенов IdP)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="cont-mobile" target="cont-bff" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-web-bff" value="HTTPS + HttpOnly Cookie&#10;(без токенов IdP)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="cont-frontend" target="cont-bff" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-bff-redis" value="Хранение access/refresh&#10;токенов по session_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="cont-bff" target="cont-redis" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-bff-kc" value="OAuth 2.0 Code + PKCE (S256)&#10;Обмен кода / refresh_token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="cont-bff" target="cont-keycloak" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-bff-api" value="Проксирование API +&#10;Authorization: Bearer JWT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="cont-bff" target="cont-api" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="980" y="650"/>
+                            <mxPoint x="980" y="995"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-kc-db" value="JDBC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="cont-keycloak" target="cont-kc-db" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-api-kc" value="Проверка JWT (JWKS / OIDC)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;" parent="1" source="cont-api" target="cont-keycloak" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1110" y="840"/>
+                            <mxPoint x="1110" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e-api-db" value="Чтение / запись телеметрии" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="cont-api" target="cont-db" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-kc-ldap-ru" value="LDAPS (User Federation,&#10;без копирования ПДн)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6C6477;strokeWidth=2;" parent="1" source="cont-keycloak" target="ext-ldap-ru" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-kc-idp-ru" value="OIDC / SAML 2.0&#10;(Identity Brokering)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6C6477;strokeWidth=2;" parent="1" source="cont-keycloak" target="ext-idp-ru" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-kc-ldap-eu" value="LDAPS (User Federation,&#10;без копирования ПДн)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6C6477;strokeWidth=2;" parent="1" source="cont-keycloak" target="ext-ldap-eu" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-kc-idp-eu" value="OIDC / SAML 2.0&#10;(Identity Brokering)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6C6477;strokeWidth=2;" parent="1" source="cont-keycloak" target="ext-idp-eu" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-ml-cli" value="Выгрузка датасетов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="person-ml" target="cont-cli" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e-cli-db" value="Чтение обезличенной телеметрии" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="cont-cli" target="cont-db" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

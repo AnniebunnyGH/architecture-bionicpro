@@ -1,0 +1,196 @@
+<mxfile host="65bd71144e">
+    <diagram name="Task 2 - Reports &amp; ETL C4" id="bionicpro-task2-reports-c4">
+        <mxGraphModel dx="878" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <object placeholders="1" c4Name="BionicPRO" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="boundary-bionicpro-t2">
+                    <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=10;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;spacingTop=0;spacing=10;dashPattern=8 4;connectable=0;pointerEvents=0;" parent="1" vertex="1">
+                        <mxGeometry x="610" y="10" width="1240" height="1040" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Покупатель протеза" c4Type="Person" c4Description="Выбор, заказ и оплата протеза" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-buyer">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="20" y="20" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Пилот протеза" c4Type="Person" c4Description="Носит протез; просматривает и скачивает отчёты о работе своего протеза" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-pilot">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#6C6477;strokeColor=#4D4D4D;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="20" y="450" width="200" height="180" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Оператор производства" c4Type="Person" c4Description="Управляет заказами и клиентами в CRM" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-operator">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1950" y="20" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="ML-инженер" c4Type="Person" c4Description="Анализирует телеметрию и обучает ML-модели" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-ml">
+                    <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1950" y="560" width="200" height="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Программа в чипе протеза" c4Type="Software System" c4Description="ESP32 (C++): считывание миосигналов, распознавание движений, отправка телеметрии по 4G" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-chip">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="210" y="230" width="250" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Приложение для донастройки протеза" c4Type="Container" c4Technology="iOS, Android" c4Description="Донастройка протеза и вызов API отчётов (PKCE)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-mobile">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="300" y="480" width="250" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Frontend (UI отчётов)" c4Type="Container" c4Technology="React, TypeScript" c4Description="Авторизация OAuth 2.0 + PKCE (S256), кнопка получения и скачивания отчёта за обработанный Airflow период" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-frontend">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="140" y="670" width="250" height="130" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Интернет-магазин" c4Type="Container" c4Technology="Битрикс24" c4Description="Каталог и оплата заказов" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-shop">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="660" y="40" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="CRM" c4Type="Container" c4Technology="Битрикс24" c4Description="Учёт клиентов и выданных протезов" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-crm">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1080" y="40" width="240" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="CRM DB" c4Type="Container" c4Technology="PostgreSQL" c4Description="Таблицы клиентов (customers) и протезов (prostheses)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-crm-db">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#23A2D9;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1570" y="120" width="260" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Apache Airflow (ETL)" c4Type="Container" c4Technology="Python, Airflow" c4Description="DAG prosthesis_reports_etl по расписанию (cron): выгрузка из CRM DB и Telemetry DB, объединение и агрегация телеметрии в разрезе клиентов, запись витрины и обновление etl_watermarks" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-airflow">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0B4884;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="960" y="260" width="310" height="150" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="ClickHouse (OLAP DB)" c4Type="Container" c4Technology="ClickHouse" c4Description="Витрина user_reports_mart (ReplacingMergeTree, ORDER BY (keycloak_username, report_date, prosthesis_id)) + таблица etl_watermarks для контроля обработанных периодов" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-clickhouse">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#1168BD;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#0B4884;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1530" y="275" width="300" height="160" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Keycloak (SSO / IdP)" c4Type="Container" c4Technology="Keycloak 21.1" c4Description="Аутентификация OAuth 2.0 + PKCE (S256), роли RBAC (prothetic_user), выдача JWT и JWKS" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-keycloak">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0B4884;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="700" y="552.5" width="260" height="130" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Reports API (Backend)" c4Type="Container" c4Technology="Node.js, TypeScript, Express" c4Description="GET /reports, GET /reports/period. Проверяет JWT (JWKS), роль prothetic_user, доступ только к своим отчётам и валидирует период по etl_watermarks. Читает готовую витрину без тяжёлых вычислений" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-reports-api">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0B4884;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1090" y="540" width="320" height="155" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="API (Telemetry Ingestion)" c4Type="Container" c4Technology="Backend API" c4Description="Приём и запись сырой телеметрии датчиков протеза" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-telemetry-api">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="660" y="840" width="260" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="Telemetry DB" c4Type="Container" c4Technology="PostgreSQL" c4Description="Операционная БД телеметрии датчиков (prosthesis_telemetry)" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-telemetry-db">
+                    <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;fillColor=#23A2D9;fontSize=11;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1520" y="840" width="260" height="120" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object placeholders="1" c4Name="cli tool" c4Type="Container" c4Technology="Python / CLI" c4Description="Аналитическая выгрузка из ClickHouse без нагрузки на PostgreSQL" label="&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot; color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="t2-cli">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;" parent="1" vertex="1">
+                        <mxGeometry x="1930" y="300" width="240" height="110" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="t2-e1" value="Заказ, оплата" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-buyer" target="t2-shop" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e2" value="Передача заказа" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-shop" target="t2-crm" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e3" value="Запись клиентов и протезов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-crm" target="t2-crm-db" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e4" value="Работа в CRM" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-operator" target="t2-crm" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e5" value="Миосигналы" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-pilot" target="t2-chip" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e6" value="Донастройка" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-pilot" target="t2-mobile" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e7" value="Запрос / скачивание отчёта" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-pilot" target="t2-frontend" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e8" value="Управление протезом" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-mobile" target="t2-chip" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e9" value="Отправка телеметрии (4G)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-chip" target="t2-telemetry-api" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="630" y="350"/>
+                            <mxPoint x="630" y="900"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t2-e10" value="Запись сырой телеметрии" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-telemetry-api" target="t2-telemetry-db" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e11" value="OAuth 2.0 + PKCE (S256)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="t2-frontend" target="t2-keycloak" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e12" value="OAuth 2.0 + PKCE (S256)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="t2-mobile" target="t2-keycloak" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="425" y="618"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t2-e13" value="GET /reports (Bearer JWT)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="t2-frontend" target="t2-reports-api" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="980" y="760"/>
+                            <mxPoint x="980" y="650"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t2-e14" value="GET /reports (Bearer JWT)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="t2-mobile" target="t2-reports-api" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="980" y="510"/>
+                            <mxPoint x="980" y="585"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t2-e15" value="Валидация JWT (JWKS)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;strokeColor=#0B4884;" parent="1" source="t2-reports-api" target="t2-keycloak" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e16" value="SELECT из user_reports_mart&#10;и проверка etl_watermarks" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="t2-reports-api" target="t2-clickhouse" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1650" y="618"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t2-e17" value="Extract: клиенты и протезы (SQL)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="t2-airflow" target="t2-crm-db" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1215" y="210"/>
+                            <mxPoint x="1650" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t2-e18" value="Extract: телеметрия за период (SQL)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="t2-airflow" target="t2-telemetry-db" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1480" y="400"/>
+                            <mxPoint x="1480" y="900"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t2-e19" value="Transform &amp; Load: витрина отчётов&#10;и etl_watermarks (HTTP/Native)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#0B4884;strokeWidth=2;" parent="1" source="t2-airflow" target="t2-clickhouse" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e20" value="Выгрузка данных" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-ml" target="t2-cli" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t2-e21" value="Аналитические запросы" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="t2-cli" target="t2-clickhouse" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
